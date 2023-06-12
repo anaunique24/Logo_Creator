@@ -1,5 +1,16 @@
-const inquirer = require(inquirer);
-const fs = require(fs);
+const inquirer = require('inquirer');
+const fs = require('fs');
+// const shapes = require('./Develop/examples/circle.svg')
+
+// class Shapes {
+//     constructor(circle, square, triangle){
+//         this.circle = circle;
+//         this.square = square;
+//         this.triangle = triangle;
+//     }
+// }
+// const createFile = (res) => 
+
 
 inquirer.prompt([
     {
@@ -13,7 +24,7 @@ inquirer.prompt([
         name: "textColor"
     },
     {
-        type: "choice",
+        type: "list",
         message: "Please select a shape from the options.",
         name: "logoShape",
         choices: ["Circle", "Square", "Triangle"]
@@ -24,9 +35,8 @@ inquirer.prompt([
         name: "shapeColor"
     }
 ])
-
 .then((file) => {
-    const content = createFile(file)
+    const content = writeFile(file)
     fs.writeFile("logo.svg", content, (error) => 
     error ? console.log("This file wasn't created. Try again!", error) : console.log("Generated logo.svg"));
 });
