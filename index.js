@@ -1,6 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const { Circle, Square, Triangle} = require('./shapes');
+const { Circle, Square, Triangle} = require('../shapes');
+const SVG = require("./svg");
 
 
 inquirer.prompt([
