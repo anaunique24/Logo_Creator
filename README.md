@@ -30,7 +30,7 @@
  ## Tests
  Running backend code with jest 8.2.4 to ensure all aspects of the program display properly.
  
- ## Screen Recording
+ ## Demo
  
  ## Questions
  Any Questions can be answered at anaunique@icloud.com
