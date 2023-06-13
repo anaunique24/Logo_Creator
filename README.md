@@ -9,6 +9,7 @@
  - [License](#License)
  - [Contributions](#Contributions)
  - [Tests](#Tests)
+ - [Screen Recording](#ScreenRecording)
  - [Questions](#Questions)
  
  ## Installation
