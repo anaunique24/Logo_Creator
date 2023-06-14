@@ -31,7 +31,12 @@
  Running backend code with jest 8.2.4 to ensure all aspects of the program display properly.
  
  ## Demo
- 
+https://github.com/anaunique24/Logo_Creator/assets/128003940/37021176-a701-4d8f-ba8b-8b7eb73c5a1e
+
+https://github.com/anaunique24/Logo_Creator/assets/128003940/138790c6-a704-4df4-bc09-853459dcf273
+
+![Screenshot 2023-06-14 at 1 29 10 PM](https://github.com/anaunique24/Logo_Creator/assets/128003940/33ecfbe8-5651-4d40-8fe2-c83e6fabe72c)
+
  ## Questions
  Any Questions can be answered at anaunique@icloud.com
  
