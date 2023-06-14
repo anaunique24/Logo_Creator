@@ -22,6 +22,7 @@ class Square extends Shape{
     super(logoName, textColor, shapeColor)
     }
     render(){
+        console.log(this.shapeColor);
         return`<rect x="90" y="40" width="120" height="120" fill="${this.shapeColor}" />`
     }
 }
